@@ -12,7 +12,7 @@ body {
   background-color: #253062;
   color: #fff;
   text-align: left;
-  padding: 20px 0 0 20px;
+  padding: 20px 0 10px 20px;
 }
 .header h5 a {
   text-decoration: none;
@@ -27,7 +27,7 @@ body {
 }
 .name {
   text-transform: uppercase;
-  padding: 10px 0;
+  padding: 5px 0 10px 0;
   text-align: center;
 }
 .description {
@@ -42,7 +42,7 @@ body {
   border: 3px solid #253062;
   border-radius: 10px;
   margin: 15px;
-  float: left;
+  float: center;
 }
 .caja h4 {
   color: #253062;
@@ -52,6 +52,7 @@ body {
   font-size: 20px;
   font-weight: bold;
   text-align: justify;
+  margin: 10px 0;
 }
 .link {
   background: #253062;
@@ -105,7 +106,8 @@ body {
 .caja h2 {
   text-transform: uppercase;
   color: #253062;
-  padding: 20px 0;
+  padding: 10px 0;
+  margin: 10px 0;
 }
 .caja img {
   text-align: center;
@@ -121,6 +123,7 @@ body {
   margin: 0 10px;
   border-style: none;
   border-radius: 30px;
+  text-align: center;
 }
 .btn a {
   text-decoration: none;
@@ -140,11 +143,19 @@ body {
     width: 90%;
     margin: 14px;
   }
+  .caja p {
+    padding: auto;
+    margin: auto;
+  }
 }
 @media screen and (max-width: 360px) {
   .caja img {
     width: 90%;
     margin: 14px;
+  }
+  .caja p {
+    padding: auto;
+    margin: auto;
   }
 }
 /* 
